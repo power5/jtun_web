@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>井屯科技</title>
+<link rel="stylesheet" href="style/normalize.css">
+<link rel="stylesheet" href="style/style.css">
+<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="js/swfobject.js" type="text/javascript"></script>
+<script type="text/javascript" 	src="js/jquery.smint.js"></script>
+
+<script>
+	$(function(){
+		$('.icon-arrow-left-3').click(function(){
+			window.location.href = 'index.html';
+		});
+		
+		var isCallvideo;
+		var isJiwei;
+		function callVideo(iid) {
+/*			var flashvars = {
+			iid:iid, // 视频iid
+			skinColor : "0x4da0eb", // 皮肤颜色
+			colorDegree:"1", // 1是浅色UI，2是深色UI
+			definition : "high", // 默认显示的画质 high/low
+			hideControlBar : "false", // 是否隐藏播放控制条 true/false
+			hideCcBtn : "true", // 是否隐藏字幕按钮 true/false
+			hideCameraBtn : "true", // 是否隐藏截图按钮 true/false
+			hideDefinitionBtn : "false", // 是否隐藏画质选择按钮 true/false
+			hideFullBtn : "false", // 是否隐藏全屏按钮 true/false
+			isAutoPlay : "true", // 是否自动播放 true/false
+			startTime : "0" // 开始播放的起始时
+			//png : "mask.png",
+			};
+			var params = {
+			allowfullscreen: 'true',
+			allowScriptAccess: "always",
+			wmode: "transparent"
+			};
+			swfobject.embedSWF("http://ui.tudou.com/bin/events/product/player/player.swf", "player", "520", "330", "10.0.0", "player/expressInstall.swf",flashvars,params);
+*/			
+			var flashvars = {
+					iid:iid,
+					autoPlay:'true',
+					title:"false",
+					type:"default",
+					setting:"false"
+				};
+			var params = {
+					allowfullscreen: 'true',
+					allowScriptAccess: "always",
+					wmode: "transparent"
+				};
+				swfobject.embedSWF("http://marketing.tudou.com/global/SPlayer/v3/player.swf", "player", "520", "330", "10.0.0", "player/expressInstall.swf",flashvars,params);
+
+			}	
+		
+		$(document).scroll(function(){
+/*			if(!isJiwei){
+				if($(document).scrollTop() > 600){
+					$('.jw').fadeIn(1500);
+					isJiwei = true;
+				}
+			} else
+*/			if(!isCallvideo){
+				if($(document).scrollTop() > 2300){
+					callVideo('149915563');
+					isCallvideo = true;
+				}
+			}
+		});
+		//
+		
+		$('button.bg-color-greenLight').click(function(){
+			callVideo('59699442');
+		});
+		$('button.bg-color-orange').click(function(){
+			callVideo('59700546');
+		});
+		$('button.bg-color-blue').click(function(){
+			callVideo('125355599');
+		});
+		$('button.bg-color-red').click(function(){
+			callVideo('149915563');
+		});
+		
+		$('.subMenu').smint({
+    		'scrollSpeed' : 500
+    	});
+
+		
+	});
+
+</script>
+</head>
+
+<body class="metrouicss" style="overflow:auto;">
+    <div id="header">
+    	<div class="headBox">
+        	<a href="http://www.jtuntech.com" id="logo" title="井屯科技"></a>
+        </div>
+		<div class="subMenu">
+        	<div class="inner">
+                <a href="#" id="sTop" class="subNavBtn">标准配置</a> 
+                <a href="#" id="s1" class="subNavBtn">机位图</a>
+                <a href="#" id="s2" class="subNavBtn">网络配置</a>
+                <a href="#" id="s3" class="subNavBtn">信号传送</a>
+                <a href="#" id="s4" class="subNavBtn">Showcase</a>
+                <a href="#" id="s5" class="subNavBtn bg-color-blue"><strong>联系我们</strong></a>
+			</div>
+        </div>
+    </div>
+
+	<div class="mainBox">
+    
+	
+    
+    
+    	<div class="titleBox">
+            <i class="icon-arrow-left-3 iwhite"></i>
+            <span>网络直播</span>
+        </div>
+        
+        <div id="tabBox2" class="sTop">
+        	<div class="tabBoxBg" style="width:900px; height:3530px;"></div>
+            <div id="i0">
+                <h1><strong>网络直播整套解决方案</strong></h1>
+                <h2 class="fg-color-red">标准配置</h2>
+                <h3>3机位 ＋ 1摇臂 （定机或游机自由搭配）</h3>
+                
+                <table class="stripped bordered" style="width:400px; margin-top:40px;">
+                    <thead>
+                        <tr>
+                            <th><strong>拍摄器材</strong></th>
+                            <th><strong>数量</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="span4">EFP切换台（6讯道）</td><td>1</td></tr>
+                        <tr><td class="span4">松下ag hpx500mc高清摄影机</td><td>3</td></tr>
+                        <tr><td class="span4">Crane 占美10M大摇</td><td>1</td></tr>
+                        <tr><td class="span4">Sony CA-TX50P适配器</td><td>3</td></tr>
+                        <tr><td class="span4">Sony CCU-TX50P控制器</td><td>3</td></tr>
+                        <tr><td class="span4">Sony CCZ- A100 电缆</td><td>3</td></tr>
+                        <tr><td class="span4">Canon MS-15遥控手柄</td><td>1</td></tr>
+                        <tr><td class="span4">Sony DXF-51寻像器</td><td>3</td></tr>
+                        <tr><td class="span4">Sony PVMQ-9041监视器</td><td>4</td></tr>
+                        <tr><td class="span4">ICM通话系统</td><td>4</td></tr>
+                    </tbody>
+                </table>
+                <img src="images/camera.png" id="img1" />
+                   
+                <div id="i1" class="s1">
+                	<h2 class="fg-color-red">机位图</h2>
+                    <h3>根据不同的场地我们会有针对性地部署机位，力求达到最好地拍摄效果</h3>
+                    <br>
+                	<img src="images/jw.jpg" class="jw" />
+                </div>
+                <div id="i2" class="s2">
+                	<h2 class="fg-color-red">网络配置</h2>
+                    <h3>提供不同的网络宽带方案以满足客户不同的需求</h3>
+                    <br>
+                    <div class="round r1">
+                    	<p>方案1<br>卫星车</p>
+                    </div>
+                    <div class="round">
+                    	<p>方案2<br>光纤</p>
+                    </div>
+                    <div class="round r2">
+                    	<p>方案3<br>无线3G</p>
+                    </div>
+                </div>  
+                
+                <div id="i3" class="s3">
+                	<h2 class="fg-color-red">信号传送</h2>
+                    <h3>网络实时传送现场视频信号，通过电脑、手机、ipad等方便观看现场画面，体验实时乐趣</h3>
+                    <div style="margin-top:80px;">
+                    	<img src="images/iph.png" />
+                        <img src="images/air.png" />
+                    </div>
+                </div>
+                
+                <div id="i4" class="s4">
+                	<h2 class="fg-color-red">Showcase</h2>
+                	<div id="play">
+                        <div id="player"></div>
+                    </div>
+                    <div id="btns">
+                    	<button class="bg-color-greenLight fg-color-white">九城神仙传发布会直播（上）</button>
+                        <button class="bg-color-orange fg-color-white">九城神仙传发布会直播（下）</button>
+                        <button class="bg-color-blue fg-color-white">森马—什么Tee发布活动</button>
+                        <button class="bg-color-red fg-color-white">统一漂亮新声北京总决赛</button>
+                    </div>
+                </div>
+                
+                <div id="i5" class="s5">
+                	<div id="linkContent">
+                        <h2>联系我们</h2>
+                        <p>
+                            电话：021-33160065
+                            <br>手机：18616504127<br>地址：上海市西藏南路1108弄5号415室
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+                    
+
+        </div>
+        <a href="#" id="btnTop">返回顶部</a>
+
+    </div>
+    
+    
+    
+    <div id="footer">
+    	<span>
+        	Copyright © 2013 all rights reserved
+            <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F383cdf14673d8d5ae31b898b807bcda4' type='text/javascript'%3E%3C/script%3E"));
+</script>
+        </span>
+    </div>    
+    
+    
+</body>
+</html>

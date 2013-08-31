@@ -1,0 +1,639 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background: url(../images/bg.jpg) repeat fixed;
+	position: relative;
+	overflow: hidden;
+}
+h1 {
+	font-family: '微软雅黑';
+}
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+button {
+	background-color: #CCCCCC;
+    border: 1px solid transparent;
+    border-radius: 0 0 0 0;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Segoe UI','Open Sans',Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 32px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    min-height: 32px;
+    min-width: 90px;
+    outline: medium none;
+    padding: 4px 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+#header {
+	width: 100%;
+	height: 81px;
+	background-color: #323232;
+	overflow: hidden;
+}
+.mainBox, .headBox {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+#tileContent {
+	overflow: hidden;
+}
+a#logo {
+	width: 223px;
+	height: 68px;
+	background: url(../images/logo.png) no-repeat;
+	margin: 6px 0 0 42px;
+	display: block;
+}
+#tileBox {
+	margin: 0 0 0 56px;
+	width: 526px;
+	float: left;
+}
+#tileBox2 {
+	float: left;
+	width: 360px;
+}
+#tileBox3 {
+	float: left;
+	width: 160px;
+	overflow: hidden;
+	margin-left: 56px;
+}
+.titleBox {
+	margin: 40px 0 20px 56px;
+	overflow: hidden;
+	position: relative;
+}
+.titleBox span, #titleBox0 span, #titleBox1 span, #titleBox3 span, #titleBox5 span {
+	font-family: '微软雅黑', '黑体';
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	left: 65px;
+	top: 7px;
+}
+#linkBox span {
+	font-family: '微软雅黑', '黑体';
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	left: 80px;
+	top: 35px;
+}
+.iwhite {
+	color: #FFF;
+	font-size: 46px;
+}
+.iorange {
+	padding: 0 0 30px 20px;
+	cursor:pointer;
+}
+#footer {
+	width: 100%;
+	height: 26px;
+	background-color: #c6dae7;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 26px;
+}
+#footer span {
+	position: absolute;
+	right: 20px;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#tabBox0, #tabBox1, #tabBox3, #tabBox5 {
+	width: 900px;
+	height: 500px;
+	position: absolute;
+	top: 180px;
+	right: -1000px;
+	display: none;
+}
+#tabBox2 {
+	width: 900px;
+	height: 3500px;
+	position: relative;
+	margin-left: 40px;
+}
+#i0 {
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	width: 100%;
+}
+#i1, #i2, #i3, #i4, #i5 {
+	margin-top: 190px;
+	width: 100%;
+	overflow: hidden;
+}
+#titleBox0, #titleBox1, #titleBox3, #titleBox5 {
+	width: 200px;
+	position: absolute;
+	top: 121px;
+	display: none;
+}
+.tabBoxBg {
+	width: 900px;
+	height: 500px;
+	background-color: white;
+	opacity: 0.5;
+	position: absolute;
+}
+.icon-arrow-left-3 {
+	cursor: pointer;
+}
+.listBox, .wBox, .pBox, .vBox {
+	width: 870px;
+	overflow: hidden;
+	position: absolute;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.vBox {
+	width: 850px;
+	padding-left: 50px;
+}
+
+.listBox h2, .wBox h2, .pBox h2, .vBox h2 {
+	font-weight: 700;
+	font-family: '微软雅黑';
+	font-size: 21px;
+}
+.imgBox {
+	position: absolute;
+	bottom: -6px;
+	right: 0px;
+	opacity: 0.7;
+}
+#open-popup {
+	padding: 20px
+}
+.white-popup {
+	position: relative;
+	background: #FFF;
+	padding: 40px;
+	width: auto;
+	max-width: 200px;
+	margin: 20px auto;
+	text-align: center;
+}
+.floatLeft {
+	float: left;
+	padding-right: 20px;
+}
+.image-collection {
+	height: 360px;
+	overflow: auto;
+}
+.size14 {
+	font-size: 12px;
+	font-weight: 400;
+}
+#playerBox {
+	width: 900px;
+	height: 430px;
+	position: absolute;
+	left: 0;
+	top: 0px;
+	background-color: #4da0eb;
+	display: none;
+	z-index: 100;
+}
+#opacityBg {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.85;
+	background-color: black;
+	z-index: 10
+}
+#btnClose {
+	width:62px;
+	height:61px;
+	background:url(../images/icon-close.png) no-repeat;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	font-size: 60px;
+	cursor: pointer;
+}
+.videoContent {
+	position: absolute;
+	top: 80px;
+	right: 6px;
+	color: white;
+	width: 180px;
+}
+.videoContent h4 {
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: "微软雅黑";
+}
+.videoContent h5 {
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.parterBox img {
+	padding-right: 15px;
+	opacity: .8;
+	width: 150px;
+	height: 56px;
+}
+#linkBox {
+	width: 300px;
+	background-color: #323232;
+	height: 400px;
+	padding-top: 30px;
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 80px;
+}
+.linkItem {
+	margin: 0 0 0 16px;
+	width: 270px;
+	height: 111px;
+	position: relative;
+}
+.linkItem p {
+	width: 200px;
+	position: absolute;
+	top: 8px;
+	left: 75px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: white;
+}
+.linkItem p.p1 {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.linkItem p.p2 {
+	font-size: 16px;
+	font-family: "微软雅黑"；
+}
+.loadImg {
+	background: url(../images/loading.gif) no-repeat 0 0;
+	width: 64px;
+	height: 64px;
+	padding-left: 25px;
+}
+#img1 {
+	position: absolute;
+	top: 190px;
+	right: 55px;
+}
+.round {
+	width: 155px;
+	height: 158px;
+	background: url(../images/rond-blanc.png) no-repeat 0 0;
+	text-align: center;
+	float: left;
+	margin: 30px 100px 0 30px;
+}
+.round p {
+	font-size: 30px;
+	color: #4da0eb;
+	padding-top: 40px;
+	line-height: 35px;
+}
+.r1 {
+	background: url(../images/rond-rouge.png) no-repeat 0 0;
+}
+.r1 p, .r2 p {
+	color: #FFF;
+}
+.r2 {
+	background: url(../images/rond-noir.png) no-repeat 0 0;
+}
+#btnTop {
+	position: absolute;
+	right: 60px;
+	bottom: 20px;
+	color: #FFF;
+	background-color: #4da0eb;
+	padding: 6px 8px;
+	text-decoration:none;
+}
+#btns {
+	width: 330px;
+	margin-top: 30px;
+	float: right;
+	clear: right;
+	overflow: hidden;
+}
+#play {
+	float: left;
+}
+.subMenu {
+	position: absolute;
+	top: 80px;
+	height: 30px;
+	z-index: 100;
+	width: 100%;
+	background: #333;
+}
+.subMenu a {
+	color: #FFF;
+	background-color: #e0592b;
+	padding: 6px 10px;
+	text-decoration:none;
+	font-size:11pt;
+	line-height:13pt;
+}
+.subMenu a:hover {
+	color:#555;	
+}
+.inner {
+	float: right;
+	padding-right: 10px;
+}
+.thumb {
+	width: 95px;
+	height: 95px;
+}
+.caseApp {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 15px;
+	box-shadow: 1px 1px 3px #333;
+}
+
+#linkContent {
+	width: 350px;
+	margin: 0 auto;
+	background-color: #FFF;
+	text-align: center;
+	padding: 10px;
+	border:4px #4da0eb solid;
+}
+#linkContent p {
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 22px;
+}
+
+.labelInfo {
+	background-color: #4DA0EB;
+    color: #FFF;
+	font-size:14px;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: inherit;
+    padding: 3px 8px;
+    vertical-align: 3%;
+}
+
+
+.image-collection>div {
+	width: 180px;
+	height: 101px;
+	overflow: hidden;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	position: relative;
+	box-shadow: 3px 3px 3px #333;
+	float: left;
+	display: table-cell;
+	vertical-align: middle!important;
+	text-align: center
+}
+
+ul.listview {
+	margin:0;
+	padding:0;
+	list-style: none;
+	overflow:hidden;
+}
+ul.listview li {
+	margin-bottom: 10px;
+	border: 4px transparent solid;
+	padding: 10px;
+	width: 300px;
+	position: relative;
+	display: block;
+	float: left;
+	margin-right: 10px
+}
+
+.listview>li.selected {
+	border: 4px #4da0eb solid;
+}
+
+.icon {
+	float:left;
+}
+
+.data {
+	width:230px;
+	float:left;
+	margin-top:8px;
+	line-height:20px;
+	font-size:10pt;	
+}
+
+.tick {
+	width:38px;
+	height:39px;
+	background:url(../images/tick.png) no-repeat;
+	position:absolute;
+	right:0px;
+	top:0px;	
+}
+
+table.bordered {
+	border-collapse: separate!important;
+	border: 1px #ccc solid!important
+}
+
+table.bordered tbody tr:last-child td {
+	border-bottom: 0
+}
+
+table thead tr th:last-child, .metrouicss table thead tr td:last-child {
+	border-right: 1px transparent solid;
+}
+
+table tbody tr {
+	border: 1px #fff solid;
+}
+
+table tbody tr td {
+	font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 11pt;
+	letter-spacing: 0.02em;
+	line-height: 14pt;
+	font-smooth: always;
+	padding: 3px 10px;
+	border-right: 1px #ddd solid;
+	border-bottom: 1px #ddd solid;
+	border-left: 1px transparent solid;
+	border-top: 1px transparent solid;
+	box-sizing: border-box;
+}
+
+table thead tr th, table thead tr td {
+	display: table-cell;
+	vertical-align: bottom;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-left: 5px;
+	border-bottom: 1px #ddd solid;
+	border-right: 1px #ddd solid;
+	border-left: 1px transparent solid;
+	border-top: 1px transparent solid;
+	font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 11pt;
+	letter-spacing: .01em;
+	line-height: 14pt;
+	font-smooth: always;
+	color: rgba(0,0,0,0.6);
+	text-align: left
+}
+
+
+/* tile */
+.bg-color-orange {
+	background-color:#FF5C36 !important;
+}
+
+.bg-color-blue {
+	background-color:#4DA0EB !important;
+}
+
+.bg-color-white {
+	background-color:#FFF;
+}
+
+.bg-color-greenLight {
+	background-color:#99B433;
+}
+
+.bg-color-red {
+	background-color:#B91D47;
+}
+
+.fg-color-blue {
+	color:#4DA0EB;
+}
+
+.fg-color-red {
+	color:#B91D47;
+}
+
+.tile.double {
+	width:310px;
+}
+
+.tileBox {
+	width:600px;
+	overflow:hidden;
+}
+
+.tile {
+	width:150px;
+	height:150px;
+	float:left;
+	overflow:hidden;
+	background-color:#525252;
+	margin:0 10px 10px 0;
+	cursor:pointer;
+	box-shadow:1px 1px 1px #fff inset;
+	position:relative;
+}
+
+.tileIcon {
+	width:64px;
+	height:64px;
+	margin:43px auto 0;
+}
+
+.tileText {
+	max-width:200px;
+	font-family:'Segoe UI','Open Sans',Verdana,Arial,Helvetica,sans-serif;
+	color:#FFF;
+	position:absolute;
+	bottom:6px;
+	left:15px;
+	font-size:9pt;
+	line-height:11pt;	
+}
+
+.tileNum {
+	width:34px;
+	height:25px;
+	font-family:'Segoe UI Semibold','Open Sans',Verdana,Arial,Helvetica,sans-serif;
+	color:#FFF;
+	font-size:11pt;
+	font-weight:600;
+	position:absolute;
+	bottom:0;
+	right:5px;
+	text-align:center;
+	padding-top:3px;
+	line-height:13pt;
+}
+
+.videoItem {
+	width: 225px;
+	height: 135px;
+	float: left;
+	margin: 0 50px 8px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.videoItem img {
+	postion:absolute;
+	top:0;
+	left:0;
+	width: 220px;
+	height: 121px;
+	box-shadow: 3px 3px 3px #333;
+	cursor: pointer;
+}
+
+.vTxt {
+	position:absolute;
+	top:0;
+	left:0;
+	width: 220px;
+	height: 121px;
+	display:none;
+	opacity:.9;
+	cursor:pointer;
+	background:url(../images/play.png) 0 0 no-repeat;)
+}
+
+.vTxt p {
+	padding:0 5px 5px 5px;
+	color:#FFF;
+	font-size:11pt;
+	font-weight:bold;
+	opacity:1;
+}
+
+

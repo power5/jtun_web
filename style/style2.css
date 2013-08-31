@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background:url(../images/bg.jpg) no-repeat fixed; position:relative;}
+h1 {font-family:'微软雅黑';}
+h2 {font-family:Georgia, "Times New Roman", Times, serif;}
+#header {width:100%; height:81px; background-color:#323232; overflow:hidden;}
+.mainBox, .headBox {width:1000px; margin:0 auto; overflow:hidden; position:relative;}

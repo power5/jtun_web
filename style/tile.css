@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:#333;	
+}
+
+.bg-color-orange {
+	background-color:#FF5C36 !important;
+}
+
+.bg-color-blue {
+	background-color:#4DA0EB !important;
+}
+
+.tile.double {
+	width:310px;
+}
+
+.tileBox {
+	width:600px;
+	overflow:hidden;
+}
+
+.tile {
+	width:150px;
+	height:150px;
+	float:left;
+	overflow:hidden;
+	background-color:#525252;
+	margin:0 10px 10px 0;
+	cursor:pointer;
+	box-shadow:1px 1px 1px #66CCFF inset;
+	position:relative;
+}
+
+.tileIcon {
+	width:64px;
+	height:64px;
+	margin:43px auto 0;
+}
+
+.tileText {
+	width:70px;
+	font-family:'Segoe UI','Open Sans',Verdana,Arial,Helvetica,sans-serif;
+	color:#FFF;
+	position:absolute;
+	bottom:6px;
+	left:15px;
+	font-size:9pt;
+	line-height:11pt;	
+}
+
+.tileNum {
+	width:34px;
+	height:25px;
+	font-family:'Segoe UI Semibold','Open Sans',Verdana,Arial,Helvetica,sans-serif;
+	color:#FFF;
+	font-size:11pt;
+	font-weight:600;
+	position:absolute;
+	bottom:0;
+	right:5px;
+	text-align:center;
+	padding-top:3px;
+	line-height:13pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

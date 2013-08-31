@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<website>
+	<web group="lightbox[a0]">
+		<thumb>joy/thumb.jpg</thumb>
+		<url_0>joy/0.jpg</url_0>
+		<url_1>joy/1.jpg</url_1>
+		<url_2>joy/2.jpg</url_2>
+		<url_3>joy/3.jpg</url_3>
+		<title>大悦城 Joy City</title>
+	</web>
+	<web group="lightbox[a1]">
+		<thumb>zhou/thumb.jpg</thumb>
+		<url_0>zhou/0.jpg</url_0>
+		<url_1>zhou/1.jpg</url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title>周庄古镇</title>
+	</web>
+	<web group="lightbox[a2]">
+		<thumb>huabao/thumb.jpg</thumb>
+		<url_0>huabao/0.jpg</url_0>
+		<url_1>huabao/1.jpg</url_1>
+		<url_2>huabao/2.jpg</url_2>
+		<url_3></url_3>
+		<title>创意画报</title>
+	</web>
+</website>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<website>
+	<web group="lightbox[0]">
+		<thumb>puma/thumb.jpg</thumb>
+		<url_0>puma/0.jpg</url_0>
+		<url_1>puma/1.jpg</url_1>
+		<url_2>puma/2.jpg</url_2>
+		<url_3></url_3>
+		<title>PUMA，浪尖上的动感生活</title>
+	</web>
+	<web group="lightbox[1]">
+		<thumb>landrover1/thumb.jpg</thumb>
+		<url_0>landrover1/0.jpg</url_0>
+		<url_1>landrover1/1.jpg</url_1>
+		<url_2>landrover1/2.jpg</url_2>
+		<url_3></url_3>
+		<title>路虎极光之城</title>
+	</web>
+	<web group="lightbox[2]">
+		<thumb>bud1/thumb.jpg</thumb>
+		<url_0>bud1/0.jpg</url_0>
+		<url_1>bud1/1.jpg</url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title>百威2011 麦霸英雄</title>
+	</web>
+	<web group="lightbox[3]">
+		<thumb>bud2/thumb.jpg</thumb>
+		<url_0>bud2/0.jpg</url_0>
+		<url_1>bud2/1.jpg</url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title>百威2012 皇者风范</title>
+	</web>
+	<web group="lightbox[4]">
+		<thumb>hennessy/thumb.jpg</thumb>
+		<url_0>hennessy/0.jpg</url_0>
+		<url_1></url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title>新点能亮拍</title>
+	</web>
+	<web group="lightbox[5]">
+		<thumb>biotherm/thumb.jpg</thumb>
+		<url_0>biotherm/0.jpg</url_0>
+		<url_1></url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title></title>
+	</web>
+	<web group="lightbox[6]">
+		<thumb>tongyi/thumb.jpg</thumb>
+		<url_0>tongyi/0.jpg</url_0>
+		<url_1>tongyi/1.jpg</url_1>
+		<url_2>tongyi/2.jpg</url_2>
+		<url_3></url_3>
+		<title>统一漂亮新声</title>
+	</web>
+	<web group="lightbox[7]">
+		<thumb>toshiba/thumb.jpg</thumb>
+		<url_0>toshiba/0.jpg</url_0>
+		<url_1>toshiba/1.jpg</url_1>
+		<url_2>toshiba/2.jpg</url_2>
+		<url_3></url_3>
+		<title>东芝《奇幻心旅》</title>
+	</web>
+	<web group="lightbox[8]">
+		<thumb>levis/thumb.jpg</thumb>
+		<url_0>levis/0.jpg</url_0>
+		<url_1>levis/1.jpg</url_1>
+		<url_2>levis/2.jpg</url_2>
+		<url_3>levis/3.jpg</url_3>
+		<title>levis 路我主导</title>
+	</web>
+	<web group="lightbox[9]">
+		<thumb>oxy/thumb.jpg</thumb>
+		<url_0>oxy/0.jpg</url_0>
+		<url_1>oxy/1.jpg</url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title>曼秀雷敦oxy</title>
+	</web>
+	<web group="lightbox[10]">
+		<thumb>visus/thumb.jpg</thumb>
+		<url_0>visus/0.jpg</url_0>
+		<url_1>visus/1.jpg</url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title>thevisus</title>
+	</web>	
+	<web group="lightbox[11]">
+		<thumb>nike/thumb.jpg</thumb>
+		<url_0>nike/0.jpg</url_0>
+		<url_1>nike/1.jpg</url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title>Nike give+me+5</title>
+	</web>		
+	<web group="lightbox[12]">
+		<thumb>xinjite/thumb.jpg</thumb>
+		<url_0>xinjite/0.jpg</url_0>
+		<url_1>xinjite/1.jpg</url_1>
+		<url_2>xinjite/2.jpg</url_2>
+		<url_3></url_3>
+		<title>欣吉特生物科技</title>
+	</web>
+	<web group="lightbox[13]">
+		<thumb>dds/thumb.jpg</thumb>
+		<url_0>dds/0.jpg</url_0>
+		<url_1>dds/1.jpg</url_1>
+		<url_2>dds/2.jpg</url_2>
+		<url_3>dds/3.jpg</url_3>
+		<title>道势制作</title>
+	</web>	
+	<web group="lightbox[14]">
+		<thumb>yuzhen/thumb.jpg</thumb>
+		<url_0>yuzhen/0.jpg</url_0>
+		<url_1>yuzhen/1.jpg</url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title>昱真水处理</title>
+	</web>	
+	<web group="lightbox[15]">
+		<thumb>ankei/thumb.jpg</thumb>
+		<url_0>ankei/0.jpg</url_0>
+		<url_1>ankei/1.jpg</url_1>
+		<url_2></url_2>
+		<url_3></url_3>
+		<title>安惠株式会社</title>
+	</web>	
+</website>
+
+
+
+
