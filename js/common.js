@@ -187,7 +187,7 @@ $(function(){
 					allowScriptAccess: "always",
 					wmode: "transparent"
 				};
-				swfobject.embedSWF("http://marketing.tudou.com/global/SPlayer/v3/player.swf", "player", "700", "430", "10.0.0", "player/expressInstall.swf",flashvars,params);
+				swfobject.embedSWF("http://player.youku.com/player.php/sid/" + iid +"/v.swf", "player", "700", "430", "10.0.0", "player/expressInstall.swf",flashvars,params);
 
 
 	}	
